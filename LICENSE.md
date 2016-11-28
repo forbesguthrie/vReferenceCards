@@ -1,1 +1,1 @@
-vReference Cards by Forbes Guthrie are licensed under a Creative Commons Attribution-Non Commercial-Share Alike 3.0 Unported License.
+vReference Cards by Forbes Guthrie are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
