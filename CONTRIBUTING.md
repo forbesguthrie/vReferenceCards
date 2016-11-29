@@ -6,6 +6,7 @@ I use line breaks in the raw markdown file just to make it easier to read. This 
 To format the text so it renders like the previous cards, use the following conventions.  I use standard markdown where possible, but some items need HTML tagging to get the achieved results.
 
 ## Card formatting with standard markdown
+<pre>
 - Section header         					prepend with ## 
 - Topic (bold)           					enclose in two asterisks **foo**
 - Variable (italics)               			in *xxx*
@@ -14,15 +15,19 @@ To format the text so it renders like the previous cards, use the following conv
 **note**: shorten VMware's KB in this format: 	"https://kb.vmware.com/kb/123456"
 - Comments (not shown in PDF)				<!-- comment here -->
 - Line break (used before topic/sub-topic)	two space at end of line
-
+</pre>
 
 ## Card formatting that needs HTML tags (no support in markdown)
+<pre>
 - Underline (sub-topic)            			<u>  </u>
 - Superscript                      			<super>  </super>
 - File/folder location (green)     			<file>  </file>
 - FIXME things (highlight)					<mark>  </mark>
+</pre>
 
 ## Unused
+<pre>
 - Section boxes (see below) 				<div class="section">  </div>
+</pre>
 
-On my first kick at this project last year, I started adding DIV sections. When I was playing around with the markdown to PDF conversion, the DIV sectioning allowed me to create special formatting with some CSS tricks. I’ve left them in on this reboot and will re-evaluate their usefulness shortly.
+On my first kick at this project last year, I started adding DIV sections. When I was playing around with the markdown to PDF conversion, the DIV sectioning allowed me to create special formatting with some CSS tricks. I’ve left them in some sections on this reboot and will re-evaluate their usefulness shortly.
