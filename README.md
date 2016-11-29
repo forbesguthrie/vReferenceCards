@@ -6,22 +6,27 @@ Currently the DCV version 6.0 is early work-in-progress. Once that has matured w
 ## History
 If you're not familiar with the vReference cards, you can a previous example here: http://www.vreference.com/vsphere-5-card/
 
-used to use various tools to build This
-
-want to make the process more open and collaborative
+The early cards were created with a variety of tools by Forbes Guthrie and published on his blog site, but the project has been migrated to GitHub to allow for wider colloboration and a much quicker update process.
 
 ## Card contents
-The card content in markdown files
-link to something explaining markdown
-example cheat sheets and GFM link
+The card contents are split into sections and created as markdown files which are easy to read and contain enough detail to create the vReference PDFs.
 
-you can take this and use it as you like
-very readabile in its current form
+Here an easy Github Flavoured Markdown cheetsheet:
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+another good one to refer to:
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-## converting to PDF
-more instructions to follow, but for now
-many text editors can convert the markdown files to html
-you can render as html and print as PDF
+The files can be edited in any text editor such as Github's own Atom: https://atom.io/, or Microsoft's Visual Studio Code
 
-future plan is to provide custom CSS which converts the markdown text and HTML tags and makes it look like a vReference card. Laterly, it's feasible to create slightly different CSS to produce  A4, Letter and Full page versions.
+### Useful links  
+Visual Studio Code editor with Markdown:
+https://code.visualstudio.com/Docs/languages/markdown
+
+
+## Converting to PDF
+More instructions to follow
+
+Many text editors can convert the markdown files to html and print as a basic PDF.
+
+Future plan is to provide custom CSS which converts the markdown text and HTML tags and makes it look like a vReference card. Laterly, it's feasible to create slightly different CSS to produce A4, Letter and Full page versions.
 
