@@ -9,7 +9,7 @@ To format the text so it renders like the previous cards, use the following conv
 <pre>
 - Section header         					prepend with ## 
 - Topic (bold)           					enclose in two asterisks **foo**
-- Variable (italics)               			in *xxx*
+- Variable (italics)               			in *bar*
 - CLI commands (red & monospaced)  			enclose in backticks `code`
 - URL linking (blue, underline)    			URL with http(s) 
 **note**: shorten VMware's KB in this format: 	"https://kb.vmware.com/kb/123456"
@@ -22,7 +22,7 @@ To format the text so it renders like the previous cards, use the following conv
 **removing HTML brackets so these render properly on the GitHub site
 - Underline (sub-topic)            			u  /u
 - Superscript                      			super  /super
-- File/folder location (green)     			file>  /file
+- File/folder location (green)     			file  /file
 - FIXME things (highlight)					mark  /mark
 </pre>
 
