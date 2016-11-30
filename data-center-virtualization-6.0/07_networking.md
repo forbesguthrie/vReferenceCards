@@ -1,6 +1,6 @@
 <!---
 https://github.com/forbesguthrie/vReferenceCards
-Reference card for vSphere 6.0
+Reference card for Data Center Virtualization 6.0
 07_networking.md
 -->
 

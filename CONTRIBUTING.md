@@ -1,4 +1,7 @@
-## General
+## Licensing
+Be aware that you're contributing to a project licensed under the Creative Commons BY-NC-SA license, and by doing so you're accepting that fact. A link for more details on the LICENSE.md file.
+
+## Formatting
 Watch for double spaces at the end of line which forces a line break.
 
 I use line breaks in the raw markdown file just to make it easier to read. This doesn't make any difference to the way it's rendered. 
@@ -26,7 +29,7 @@ To format the text so it renders like the previous cards, use the following conv
 - FIXME things (highlight)					mark  /mark
 </pre>
 
-## Unused
+## Unused formatting
 <pre>
 - Section boxes (see below) 				div class="section"  /div
 </pre>

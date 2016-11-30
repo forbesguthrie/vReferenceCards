@@ -1,6 +1,6 @@
 <!---
 https://github.com/forbesguthrie/vReferenceCards
-Reference card for vSphere 6.0
+Reference card for Data Center Virtualization 6.0
 01_install.md
 -->
 
@@ -14,7 +14,8 @@ even if host is licensed. If no DHCP at install, link local IP used
 169.254.x.x/16. Disconnect Fibre Channel connections prior to
 installation.  
 
-**FW Port** **Source Destination Protocol Description**  
+## Firewall
+**FW Port** **Source** **Destination** **Protocol** **Description**  
 22 SSH client ESXi TCP SSH server  
 53 ESXi DNS server UDP DNS requests  
 80 Clients ESXi TCP Redirects to HTTPS (443)  
@@ -50,7 +51,7 @@ HA,FT,NFS,iSCSI traffic
 **ESXi Partitions**: • 2 boot banks • 4GB VFAT scratch (system swap & vm-support info) – not required but uses ramdisk if not present, or can
 use remote NFS partition • locker • 110MB diagnostic for core dumps (can
 redirect to ESXi Dump Collector) • VMFS5 on each disk’s free space.  
-Fresh install has GPT, upgraded keeps MBR style.
+Fresh install has GPT, upgraded keeps MBR style.  
 Not supported: • ESXi Installable & Embedded on same host • Booting
 multiple servers from 1 image.  
 
@@ -117,6 +118,7 @@ file.
 **Upgrade** from ESX/ESXi 4.x: • vCenter Upgrade Manager (needs 350MB free in <file>/boot</file>) • Interactive upgrade from CD or USB drive • Scripted upgrade. 5.0 upgrades to 5.x can also use • Auto Deploy (if used for 5.0 install) • `esxcli`.
 </mark>
 
+## Links
 Installing ESXi 5.0 Best Practices http://kb.vmware.com/kb/2005099  
 Upgrading to ESXi 5.0 Best Practices http://kb.vmware.com/kb/2005102  
 Resolution Path – Troubleshooting Installs http://communities.vmware.com/docs/DOC-15789  
