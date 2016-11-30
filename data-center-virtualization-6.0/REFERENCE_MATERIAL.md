@@ -2,7 +2,7 @@
 
 ## vSphere 6.0 GA
 ### Primary documentation
-- [Release 6.0 Documentation Archive](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-admin-doc.zip)  
+- [Full 6.0 Documentation Archive (zip file)](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-admin-doc.zip)  
 - [vSphere Installation and Setup Guide 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-installation-setup-guide.pdf)
 - [vSphere Upgrade Guide 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-upgrade-guide.pdf)
 - vSphere Migration Guide: http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-vcenter-server-60-migration-guide.pdf
