@@ -2,10 +2,9 @@
 
 ## vSphere 6.0 GA
 ### Primary documentation
-- Release 6.0 Documentation Archive: http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-admin-doc.zip
-
-- vSphere Installation and Setup Guide: http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-installation-setup-guide.pdf
-- vSphere Upgrade Guide: http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-upgrade-guide.pdf
+- [Release 6.0 Documentation Archive](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-admin-doc.zip)  
+- [vSphere Installation and Setup Guide 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-installation-setup-guide.pdf)
+- [vSphere Upgrade Guide 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-upgrade-guide.pdf)
 - vSphere Migration Guide: http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-vcenter-server-60-migration-guide.pdf
 - vCenter Server and Host Management Guide: http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-host-management-guide.pdf
 - vCenter Server Appliance Configuration Guide: http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-appliance-configuration-guide.pdf
@@ -75,3 +74,7 @@ Release 6.0 Update 2 Documentation Archive: http://pubs.vmware.com/vsphere-60/to
 
 ### Additional links
 Release notes, What's New PDFs, CLI guides, addtional VMware products (VDP, vReplication, VUM)
+
+## Older What's New features since 5.0
+5.1
+5.5
