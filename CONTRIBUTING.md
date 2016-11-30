@@ -1,5 +1,8 @@
 ## Licensing
-Be aware that you're contributing to a project licensed under the Creative Commons BY-NC-SA license, and by doing so you're accepting that fact. A link for more details on the LICENSE.md file.
+Be aware that you're contributing to a project licensed under the Creative Commons BY-NC-SA license, and by doing so you're accepting that fact. A link with more details is on the LICENSE.md file.
+
+## Citations
+Please drop in the Git Commit message a specific link (for example a URL to a PDF with a page number, or article URL with quote), so if there's any dispute about the veracity of the change it's easy to check. If there isn't a citation, and we're not aware of the change, the merge request may not be accepted.
 
 ## Formatting
 Watch for double spaces at the end of line which forces a line break.

@@ -16,11 +16,11 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 another good one to refer to:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-The files can be edited in any text editor such as Github's own Atom: https://atom.io/, or Microsoft's Visual Studio Code
+The files can be edited in any text editor such as Github's own [Atom](https://atom.io/), or Microsoft's Visual Studio Code
 
 ### Useful links  
-Visual Studio Code editor with Markdown:
-https://code.visualstudio.com/Docs/languages/markdown
+[Visual Studio Code editor with Markdown]
+(https://code.visualstudio.com/Docs/languages/markdown)
 
 
 ## Converting to PDF
@@ -29,4 +29,3 @@ More instructions to follow
 Many text editors can convert the markdown files to html and print as a basic PDF.
 
 Future plan is to provide custom CSS which converts the markdown text and HTML tags and makes it look like a vReference card. Laterly, it's feasible to create slightly different CSS to produce A4, Letter and Full page versions.
-

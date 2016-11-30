@@ -2,7 +2,7 @@
 # Current TODO status on Data Center Virtualization 6.0 card
 
 ## Apply formatting as per the CONTRIBUTING.md file in project's root directory
-- [0] 01_install.md
+- [x] 01_install.md
 - [ ] 02_hosts.md
 - [ ] 03_vcenter.md
 - [ ] 04_clusters.md
