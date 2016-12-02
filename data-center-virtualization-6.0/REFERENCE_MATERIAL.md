@@ -27,12 +27,6 @@
 - [vCenter Server 6.0.0b Release Notes](https://www.vmware.com/support/vsphere6/doc/vsphere-vcenter-server-600b-release-notes.html)
 - [ESXi 6.0.0b Release Notes](https://www.vmware.com/support/vsphere6/doc/vsphere-esxi-600b-release-notes.html)
 
-### VUM
-- [Installing and Administering VUM](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-update-manager-60-install-administration-guide.pdf)
-- [Reconfiguring VMware vSphere VUM](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-update-manager-60-reconfig-guide.pdf)
-- [Update Manager 6.0 Release Notes](https://www.vmware.com/support/vsphere6/doc/vsphere-update-manager-60-release-notes.html)
-- [Update Manager 6.0.0.a Release Notes](https://www.vmware.com/support/vsphere6/doc/vsphere-update-manager-600a-release-notes.html)
-
 ### Additional links
 - [What's New in vSphere 6.0](http://www.vmware.com/files/pdf/vsphere/VMW-WP-vSPHR-Whats-New-6-0-PLTFRM.pdf)
 - [vSphere CLI Release Notes 6.0](https://www.vmware.com/support/developer/vcli/vcli60/vsp6_60_vcli_relnotes.html)
@@ -42,8 +36,25 @@
 
 What's New PDFs, CLI guides, addtional VMware products (VDP, vReplication, VUM)
 https://www.vmware.com/support/pubs/vsphere-esxi-vcenter-server-6-pubs.html
-https://www.vmware.com/support/pubs/vum_pubs.html
 
+### vSphere Update Manager (VUM)
+- [Installing and Administering VUM](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-update-manager-60-install-administration-guide.pdf)
+- [Reconfiguring VMware vSphere VUM](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-update-manager-60-reconfig-guide.pdf)
+- [Update Manager 6.0 Release Notes](https://www.vmware.com/support/vsphere6/doc/vsphere-update-manager-60-release-notes.html)
+- [Update Manager 6.0.0.a Release Notes](https://www.vmware.com/support/vsphere6/doc/vsphere-update-manager-600a-release-notes.html)
+
+### Virtual SAN
+https://www.vmware.com/support/pubs/virtual-san-pubs.html
+
+### vSphere Replication
+https://www.vmware.com/support/pubs/vsphere-replication-pubs.html
+
+### vSphere Data Protection 
+https://www.vmware.com/support/pubs/vdr_pubs.html
+
+
+# Update material
+We're still figuring out how best to handle the update material. Initially we're likely to add any changes these updates provide into a separate file, then determine if they should live as an add on section, find some way of pointing them out inline, or provide separate cards for each update.  This largely depends on the amount of content that would need to be changed.
 
 ## vSphere 6.0 Update 1
 ### Primary documentation
@@ -71,7 +82,7 @@ https://www.vmware.com/support/pubs/vum_pubs.html
 - [ESXi 6.0 Update 1a Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-esxi-60u1a-release-notes.html)
 - [ESXi 6.0 Update 1b Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-esxi-60u1b-release-notes.html)
 
-## VUM
+### vSphere Update Manager (VUM)
 - [Installing and Administering VUM 6.0 U1](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-update-manager-601-install-administration-guide.pdf)
 - [Update Manager 6.0 Update 1 Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-update-manager-60u1-release-notes.html)
 - [Update Manager 6.0 Update 1b Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-update-manager-60u1b-release-notes.html)
@@ -107,7 +118,7 @@ What's New PDFs, CLI guides, addtional VMware products (VDP, vReplication, VUM)
 - [vCenter Server 6.0 Update 2a Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-vcenter-server-60u2a-release-notes.html)
 - [ESXi 6.0 Update 2 Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-esxi-60u2-release-notes.html)
 
-### VUM
+### vSphere Update Manager (VUM)
 - [Update Manager 6.0 Update 2 Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-update-manager-60u2-release-notes.html)
 - [Update Manager 6.0 Update 2a Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-update-manager-60u2a-release-notes.html)
 
