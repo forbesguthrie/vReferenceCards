@@ -21,25 +21,16 @@
 - [ ] 07_networking.md
 - [ ] 08_storage.md  
 
-## Update existing details for vSphere 6 (maxs, commands, etc)
-- [ ] 01_install.md
-- [ ] 02_hosts.md
-- [ ] 03_vcenter.md
-- [ ] 04_clusters.md
-- [ ] 05_vms.md
-- [ ] 06_availability.md
-- [ ] 07_networking.md
-- [ ] 08_storage.md  
+## Update existing details for vSphere 6 (maxs, commands, firewall ports)
+See REFERENCE_MATERIAL.md, in particluar:  
+- [Configuration Maximums for vSphere 6.0](https://www.vmware.com/pdf/vsphere6/r60/vsphere-60-configuration-maximums.pdf)  
+- [vSphere CLI Release Notes 6.0](https://www.vmware.com/support/developer/vcli/vcli60/vsp6_60_vcli_relnotes.html)  
+- [vSphere CLI Release Notes 6.0 U2](http://pubs.vmware.com/Release_Notes/en/vcli/60/vsp6_602_vcli_relnotes.html)  
+
 
 ## Add new vSphere 6 capabilities
-- [ ] 01_install.md
-- [ ] 02_hosts.md
-- [ ] 03_vcenter.md
-- [ ] 04_clusters.md
-- [ ] 05_vms.md
-- [ ] 06_availability.md
-- [ ] 07_networking.md
-- [ ] 08_storage.md  
+See REFERENCE_MATERIAL.md, in particluar:
+What's new...
 
 ## Card formatting
 - [ ] CSS general

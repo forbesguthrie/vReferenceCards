@@ -27,10 +27,9 @@
 - [vCenter Server 6.0.0b Release Notes](https://www.vmware.com/support/vsphere6/doc/vsphere-vcenter-server-600b-release-notes.html)
 - [ESXi 6.0.0b Release Notes](https://www.vmware.com/support/vsphere6/doc/vsphere-esxi-600b-release-notes.html)
 
-### Additional links
+### Additional vSphere links
 - [What's New in vSphere 6.0](http://www.vmware.com/files/pdf/vsphere/VMW-WP-vSPHR-Whats-New-6-0-PLTFRM.pdf)
 - [vSphere CLI Release Notes 6.0](https://www.vmware.com/support/developer/vcli/vcli60/vsp6_60_vcli_relnotes.html)
-- [vSphere CLI Release Notes 6.0](http://pubs.vmware.com/Release_Notes/en/vcli/60/vsp6_602_vcli_relnotes.html)
 - [Setup for Failover Clustering and Microsoft Cluster Service 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-setup-mscs.pdf)
 - [Comparing the Configuration of vCenter Server Appliance 5.5 and 6.0](http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/products/vsphere/vmware-vsphere-60-vcenter-server-appliance-55-60-comparison-technical-note.pdf)
 
@@ -87,7 +86,7 @@ We're still figuring out how best to handle the update material. Initially we're
 - [Update Manager 6.0 Update 1 Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-update-manager-60u1-release-notes.html)
 - [Update Manager 6.0 Update 1b Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-update-manager-60u1b-release-notes.html)
 
-### Additional links
+### Additional vSphere links
 - [Setup for Failover Clustering and Microsoft Cluster Service 6.0 U1](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-601-setup-mscs.pdf)
 What's New PDFs, CLI guides, addtional VMware products (VDP, vReplication, VUM)
 
@@ -122,8 +121,9 @@ What's New PDFs, CLI guides, addtional VMware products (VDP, vReplication, VUM)
 - [Update Manager 6.0 Update 2 Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-update-manager-60u2-release-notes.html)
 - [Update Manager 6.0 Update 2a Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere/60/vsphere-update-manager-60u2a-release-notes.html)
 
-### Additional links
+### Additional vSphere links
 What's New PDFs, CLI guides, addtional VMware products (VDP, vReplication, VUM)
+- [vSphere CLI Release Notes 6.0 U2](http://pubs.vmware.com/Release_Notes/en/vcli/60/vsp6_602_vcli_relnotes.html)
 
 
 ## Older "What's New" features since 5.0
