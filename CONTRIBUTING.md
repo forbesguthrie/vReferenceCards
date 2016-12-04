@@ -15,9 +15,9 @@ Watch for double spaces at the end of line which forces a line break.
 I use line breaks in the raw markdown file just to make it easier to read. This doesn't make any difference to the way it's rendered. 
 
 ### Card formatting with standard markdown
-- Section header:         		                prepend with ```##```
-- Topic (bold):           			            enclose in two asterisks ```**foo**```
-- Variable (italics):               		    enclose in one asterisk ```*bar*```
+- ***Section header***:         		                prepend with ```##```
+- **Topic** (bold):           			            enclose in two asterisks ```**foo**```
+- <u>Variable</u> (italics):               		    enclose in one asterisk ```*bar*```
 - CLI commands (red & monospaced):  		    enclose in single backticks ``` `code` ```
 - URL linking (blue, underline):    		    URL with http(s)  
 **note**: shorten VMware's KB in this format: 	```https://kb.vmware.com/kb/123456```
