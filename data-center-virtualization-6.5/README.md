@@ -1,0 +1,1 @@
+The project is aiming to release a first draft of the 6.0 DCV card before tackling other cards such as the 6.5 updates. However if you want to start contributing to a 6.5 card, such as REFERENCE_MATERIAL.md information, you are welcome to submit merge requests.

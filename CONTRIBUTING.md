@@ -27,8 +27,8 @@ NB: shorten VMware's KB in this format: 	        ```https://kb.vmware.com/kb/123
 ### Card formatting that needs HTML tags (no support in markdown)
 - ***Sub-topic*** (underline):            			```<u>  </u>```  
 - ***Superscript***:                      			```<super>  </super>```  
-- ***File/folder*** location (green):     			```<file>  /file>```  
-- ***FIXME*** during card construction (highlight):	```<mark>  /mark>```  
+- ***File/folder*** location (green):     			```<file>  </file>```  
+- ***FIXME*** during card construction (highlight):	```<mark>  </mark>```  
 
 
 ### Unused formatting

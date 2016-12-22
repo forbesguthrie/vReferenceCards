@@ -3,11 +3,11 @@
 
 ## Apply formatting as per the CONTRIBUTING.md file in project's root directory
 - [x] 01_install.md
-- [ ] 02_hosts.md
-- [ ] 03_vcenter.md
-- [ ] 04_clusters.md
-- [ ] 05_vms.md
-- [ ] 06_availability.md
+- [x] 02_hosts.md
+- [x] 03_vcenter.md
+- [x] 04_clusters.md
+- [x] 05_vms.md
+- [x] 06_availability.md
 - [ ] 07_networking.md
 - [ ] 08_storage.md  
 
@@ -29,7 +29,7 @@ See REFERENCE_MATERIAL.md, in particluar:
 
 
 ## Add new vSphere 6 capabilities
-See REFERENCE_MATERIAL.md, in particluar:
+See REFERENCE_MATERIAL.md, in particular:
 What's new...
 
 ## Card formatting

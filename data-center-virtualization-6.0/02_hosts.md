@@ -5,6 +5,7 @@ Reference card for Data Center Virtualization 6.0
 -->
 
 # ESXi Hosts
+## Maximums
 **Maximums (per host)**: Logical CPUs (incl HT) = 320 RAM = 4TB VMs = 512 NUMA nodes = 16   
 vCPUs = 4096 vCPUs per core = 32
 
@@ -26,6 +27,7 @@ events & VM startup)
 <file>vmksummary.log</file> ESXi startup/shutdown, uptime, VMs running, service usage  
 <file>vpxa.log</file> vCenter vpxa agent   
 
+## Shell Commands
 `--help` for esxcli namespaces & commands relative to location. `localcli` bypasses hostd  
 Startup level for management services (& lists all services): `chkconfig –-list`  
 Restart all management services: `/sbin/service.sh restart`  
@@ -74,7 +76,7 @@ dependent).
 **NUMA** (Non-Uniform Memory Access): CPUs have localized memory. NUMA
 scheduler controls VM distribution across host memory to dynamically
 optimize CPU load & memory locality for VMs.  
-**Firewall**: Define service’s port/protocol ruleset: <file>/etc/vmware/firewall/service\_<*name\>*.xml</file> (then refresh)  
+**Firewall**: Define service’s port/protocol ruleset: <file>/etc/vmware/firewall/service_\<*name\>*.xml</file> (then refresh)  
 **PAM** (Pluggable Authentication Modules) plugins: <file>/etc/pam.d/vmware-authd</file>. Default password compliance plugin: <file>pam\_passwdqc.so</file>. No restrictions on root password. Defaults for
 non-root users: password retries = 3, minimum password length = 8,
 shorter passwords if Characters Classes mixed (upper, lower, digits &
@@ -114,7 +116,7 @@ permissions. <u>Total lockdown mode</u>: also disables root access to the
 DCUI, if vCenter access is lost you must reinstall ESXi to regain
 control. root & vpxuser are only users not assigned No Access role on
 hosts by default, but have same rights as the Administrator role.  
-
+## Links
 Firewall Ports http://kb.vmware.com/kb/1012382  
 Location of ESXi 5.0 log files http://kb.vmware.com/kb/2004201  
 Video: Restarting management agents on an ESX/ESXi server http://kb.vmware.com/kb/1003490  
