@@ -1,4 +1,4 @@
-# contributing
+# Contributing
 First off, thank you for considering adding to this community resource. All the small updates and additions make these cards what they are.  Contributing is super simple, and there's a variety of ways you can submit updates. Blog post on vReference.com to follow which I'll add here.
 
 ## Licensing
