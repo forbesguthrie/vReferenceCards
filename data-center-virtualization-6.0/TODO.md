@@ -14,8 +14,8 @@
 **Fix tables**
 - [x] 01_install.md
 - [ ] 02_hosts.md
-- [ ] 03_vcenter.md
-- [ ] 04_clusters.md
+- [x] 03_vcenter.md
+- [x] 04_clusters.md
 - [ ] 05_vms.md
 - [ ] 06_availability.md
 - [ ] 07_networking.md

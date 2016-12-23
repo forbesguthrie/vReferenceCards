@@ -25,31 +25,29 @@ SQL don't use master DB.
 
 <mark>Removed sections: VCVA & DVD tools. Add VCSA & PSC detail</mark>  
 
-## Firewall
-**FW Port** **Source Destination Protocol Description**  
-80 Clients vCenter TCP Redirect to HTTPS  
-389 vCenter Other vCenters TCP Linked Mode LDAP  
-443 Clients vCenter TCP vSphere Client access  
-443 vCenter ESXi TCP vCenter agent  
-902 ESXi vCenter UDP Heartbeat  
-902 vCenter ESXi UDP Host management, heartbeat  
-903 Clients vCenter TCP VM Console  
+## Firewall  
+| FW Port | Source  | Destination    | Protocol | Description                     |
+|:--------|:--------|:---------------|:--------:|---------------------------------|
+| 80      | Clients | vCenter        | TCP      | Redirect to HTTPS               |
+| 389     | vCenter | Other vCenters | TCP      | Linked Mode LDAP                |
+| 443     | Clients | vCenter        | TCP      | vSphere Client access           |
+| 443     | vCenter | ESXi           | TCP      | vCenter agent                   |
+| 902     | ESXi    | vCenter        | UDP      | Heartbeat                       |
+| 902     | vCenter | ESXi           | UDP      | Host management, heartbeat      |
+| 903     | Clients | vCenter        | TCP      | VM Console                      |
 Possible extras: 25(SMTP), 53(DNS), 80/443/623(DPM), 88(AD), 161/162(SNMP), 636(Linked vCenters), 1433 (MSSQL), 1521(Oracle), 5988/5989(CIM), 6500/8000(Dump Collector), 8000(vMotion), 8080/8443/60099(webservices), 9443 (Web Client),10109/10111/10443(Inventory service),51915(Auth proxy)
+
 **Logs**: DB upgrade: <file>%TEMP%\\VCDatabaseUpgrade.log</file>  
 vCenter agent: <file>/var/log/vmware/vpx/vpxa.log</file>  
 vCenter (Win XP, 2000, 2003): <file>%ALLUSERSPROFILE%\\Application Data\\VMware\\VMware VirtualCenter\\Logs\\</file>  
-vCenter (Win 7, 2008): <file>%ALLUSERSPROFILE%\\VMware\\VMware
-VirtualCenter\\Logs\\</file>
-(see KB in links below for description of different log files)  
-VCVA logs <file>/var/log/vmware/vpx</file>  
-Windows Client Install <file>%TEMP%\\vmmsi.log</file>  
-Windows Client Service <file>%USERPROFILE%\\Local Settings\\Application
-Data\\vpx\\viclient-x.log</file> (x=0-9)  
-Guest customization - Win: <file>%WINDIR\\temp\\vmware-imc</file> -  Linux: <file>/var/log/vmwareimc/toolsDeployPkg.log</file>  
+vCenter (Win 7, 2008): <file>%ALLUSERSPROFILE%\\VMware\\VMware VirtualCenter\\Logs\\</file> (see KB in links below for description of different log files)  
+VCVA logs: <file>/var/log/vmware/vpx</file>  
+Windows Client Install: <file>%TEMP%\\vmmsi.log</file>  
+Windows Client Service: <file>%USERPROFILE%\\Local Settings\\Application Data\\vpx\\viclient-x.log</file> (x=0-9)  
+Guest customization - Win: <file>%WINDIR\\temp\\vmware-imc</file> - Linux: <file>/var/log/vmwareimc/toolsDeployPkg.log</file>  
 
 **Default roles** (<u>System roles</u> - permanent, cannot edit privileges,
 ESXi & vCenter. <u>Sample roles</u> - just vCenter):  
-
 |                     |        |                                                                         |
 | :------------------ | :----: | :---------------------------------------------------------------------- |    
 | No access           | System | Default except users in Admin Group, cannot view or change              |  
