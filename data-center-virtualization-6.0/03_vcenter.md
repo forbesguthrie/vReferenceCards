@@ -71,18 +71,17 @@ universal. Child permissions override those propagated. User permissions
 override Group ones.  
 Use *No Access* role to mask areas from users. Moving objects needs
 permission on object, source & destination parent.  
-**Licensing**: Essential Essential+ Standard Enterprise Enterprise+  
-vRAM (per socket license) ------------------ 32GB ------------------
-64GB 96GB  
-vCPU ---------------------------- 8 way ------------------------ 32 way  
-vpxa, Thin pro, VUM, VADP **Yes Yes Yes Yes Yes**  
-vMotion, HA, vDR **Yes Yes Yes Yes**  
-SLES (SUSE Linux Ent Server) for VMware **Yes Yes Yes**  
-DRS, DPM, Storage vMotion, FT, VAAI, Hot add, Linked mode, |  
-3<sup>rd</sup> party MPP, Orchestrator, vShield Zones, Serial port concentrator
-|\> **Yes Yes**  
-DVS, NIOC, SIOC, Host Profiles, Auto Deploy, Policy-driven Storage,
-Storage DRS **Yes**  
+
+| Licensing             | Essential | Essential+ | Standard | Enterprise | Enterprise+ |
+| -------------             | :-------: | :--------: | :------: | :--------: | :---------: |
+| vRAM (per socket license) | 32GB      | 32GB       | 32GB     | 64GB       | 96GB        | 
+| vCPU                      | 8 way     | 8 way      | 8 way    | 8 way      | 32 way      | 
+| vpxa, Thin pro, VUM, VADP | Yes       | Yes        | Yes      | Yes        | Yes         |
+| vMotion, HA, vDR          |           | Yes        | Yes      | Yes        | Yes         |
+| SLES (SUSE Linux Ent Server) for VMware | |        | Yes      | Yes        | Yes         |  
+| DRS, DPM, Storage vMotion, FT, VAAI, Hot add, Linked mode, 3<sup>rd</sup> party MPP, Orchestrator, vShield Zones, Serial port concentrator |||| Yes | Yes |  
+| DVS, NIOC, SIOC, Host Profiles, Auto Deploy, Policy-driven Storage, Storage DRS ||||| Yes |  
+
 <u>vRAM</u> - Memory configured on all powered-on VMs. Consumed vRAM capped
 at 96GB per VM. Only Essential & Essential+ has hard vRAM limit. CPU
 licenses from same license level are pooled across linked mode vCenters.
