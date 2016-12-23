@@ -48,7 +48,7 @@ Data\\vpx\\viclient-x.log</file> (x=0-9)
 Guest customization - Win: <file>%WINDIR\\temp\\vmware-imc</file> -  Linux: <file>/var/log/vmwareimc/toolsDeployPkg.log</file>  
 
 **Default roles** (<u>System roles</u> - permanent, cannot edit privileges,
-ESXi & vCenter. <u>Sample roles</u> - just vCenter):
+ESXi & vCenter. <u>Sample roles</u> - just vCenter):  
 |                     |        |                                                                         |
 | :------------------ | :----: | :---------------------------------------------------------------------- |    
 | No access           | System | Default except users in Admin Group, cannot view or change              |  
