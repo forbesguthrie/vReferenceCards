@@ -46,19 +46,6 @@ Windows Client Install <file>%TEMP%\\vmmsi.log</file>
 Windows Client Service <file>%USERPROFILE%\\Local Settings\\Application
 Data\\vpx\\viclient-x.log</file> (x=0-9)  
 Guest customization - Win: <file>%WINDIR\\temp\\vmware-imc</file> -  Linux: <file>/var/log/vmwareimc/toolsDeployPkg.log</file>  
-**Default roles** (<u>System roles</u> - permanent, cannot edit privileges,
-ESXi & vCenter. <u>Sample roles</u> - just vCenter):  
-No access System - Default except users in Admin Group. Cannot view or change.  
-Read only System - View state & details except console tab.  
-Administrator System - All privileges. Default for members of the Admin Group, & AD ESX Admins.  
-VM power user Sample - Interact with, change VM HW settings, snapshots &
-schedule tasks.  
-VM user Sample - Interact with, insert media & power ops. Cannot change
-VM HW settings.  
-Resource pool admin Sample - Create, modify child pools & assign VMs,
-but not RP itself.  
-Datastore consumer Sample - Allows space consumption of the datastore.  
-Network consumer Sample - Allows hosts or VMs to be assigned to network.  
 
 **Default roles** (<u>System roles</u> - permanent, cannot edit privileges,
 ESXi & vCenter. <u>Sample roles</u> - just vCenter):
