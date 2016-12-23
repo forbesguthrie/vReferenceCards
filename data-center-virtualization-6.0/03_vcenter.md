@@ -59,6 +59,20 @@ Resource pool admin Sample - Create, modify child pools & assign VMs,
 but not RP itself.  
 Datastore consumer Sample - Allows space consumption of the datastore.  
 Network consumer Sample - Allows hosts or VMs to be assigned to network.  
+
+**Default roles** (<u>System roles</u> - permanent, cannot edit privileges,
+ESXi & vCenter. <u>Sample roles</u> - just vCenter):
+|                     |        |                                                                         |
+| :------------------ | :----: | :---------------------------------------------------------------------- |    
+| No access           | System | Default except users in Admin Group, cannot view or change              |  
+| Read only           | System | View state & details except console tab                                 |   
+| Administrator       | System | All privileges, default for members of the Admin Group, & AD ESX Admins |  
+| VM power user       | Sample | Interact with, change VM HW settings, snapshots & schedule tasks        |  
+| VM user             | Sample | Interact with, insert media & power ops, cannot change VM HW settings   |  
+| Resource pool admin | Sample | Create, modify child pools & assign VMs, but not RP itself              |  
+| Datastore consumer  | Sample | Allows space consumption of the datastore                               | 
+| Network consumer    | Sample | Allows hosts or VMs to be assigned to network                           |
+
 **Permissions**: pair user/group with role & associate with object.
 <u>Role</u> - predefined set of privileges. Users initially granted *No
 Access* role on new objects including datastores/networks. Logged in
@@ -72,13 +86,13 @@ override Group ones.
 Use *No Access* role to mask areas from users. Moving objects needs
 permission on object, source & destination parent.  
 
-| Licensing             | Essential | Essential+ | Standard | Enterprise | Enterprise+ |
-| -------------             | :-------: | :--------: | :------: | :--------: | :---------: |
+| Licensing                 | Essential | Essential+ | Standard | Enterprise | Enterprise+ |
+| :------------------------ | :-------: | :--------: | :------: | :--------: | :---------: |
 | vRAM (per socket license) | 32GB      | 32GB       | 32GB     | 64GB       | 96GB        | 
 | vCPU                      | 8 way     | 8 way      | 8 way    | 8 way      | 32 way      | 
 | vpxa, Thin pro, VUM, VADP | Yes       | Yes        | Yes      | Yes        | Yes         |
 | vMotion, HA, vDR          |           | Yes        | Yes      | Yes        | Yes         |
-| SLES (SUSE Linux Ent Server) for VMware | |        | Yes      | Yes        | Yes         |  
+| SLES (SUSE Linux Ent Server) for VMware          ||| Yes      | Yes        | Yes         |  
 | DRS, DPM, Storage vMotion, FT, VAAI, Hot add, Linked mode, 3<sup>rd</sup> party MPP, Orchestrator, vShield Zones, Serial port concentrator |||| Yes | Yes |  
 | DVS, NIOC, SIOC, Host Profiles, Auto Deploy, Policy-driven Storage, Storage DRS ||||| Yes |  
 
