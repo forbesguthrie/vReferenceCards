@@ -16,7 +16,7 @@ installation.
 
 ## Firewall  
 | FW Port   | Source           | Destination  | Protocol | Description                     |
-|-----------|------------------|--------------|----------|---------------------------------|
+|:----------|:-----------------|:-------------|:--------:|---------------------------------|
 | 22        | SSH client       | ESXi         | TCP      | SSH server                      |
 | 53        | ESXi             | DNS server   | UDP      | DNS requests                    |
 | 80        | Clients          | ESXi         | TCP      | Redirects to HTTPS (443)        |
