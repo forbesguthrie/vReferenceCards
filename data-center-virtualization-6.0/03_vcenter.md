@@ -49,6 +49,7 @@ Guest customization - Win: <file>%WINDIR\\temp\\vmware-imc</file> -  Linux: <fil
 
 **Default roles** (<u>System roles</u> - permanent, cannot edit privileges,
 ESXi & vCenter. <u>Sample roles</u> - just vCenter):  
+
 |                     |        |                                                                         |
 | :------------------ | :----: | :---------------------------------------------------------------------- |    
 | No access           | System | Default except users in Admin Group, cannot view or change              |  
