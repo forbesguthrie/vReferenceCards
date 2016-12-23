@@ -65,13 +65,13 @@ nodes clusters.
 <u>Not supported</u>: DRS on VMs, vMotion, FT, NPIV, VMW\_PSP\_RR,
 FCoE/iSCSI/NFS based disks. SW iSCSI initiator in guest is supported.
 
-**VMDK Virtual RDM Physical RDM**
-
-Cluster in a box (CIB) <u>Yes</u> (zeroed) Yes No (not supported)  
-Cluster across boxes (CAB) No Only 2003 <u>Yes</u> (recommended)  
-Physical & VM (n+1) No No <u>Yes</u>  
-Snapshots Yes Yes No  
-SCSI target software No No Yes  
+| VMDK & RDM support       | VMDK                | Virtual RDM | Physical RDM             |
+| :----------------------- | :-----------------: | :---------: | :----------------------: | 
+| Cluster in a box (CIB)   | <u>Yes</u> (zeroed) | Yes         | No (not supported)       |
+Cluster across boxes (CAB) | No                  | Only 2003   | <u>Yes</u> (recommended) |
+Physical & VM (n+1)        | No                  | No          | <u>Yes</u>               |
+Snapshots                  | Yes                 | Yes         | No                       |
+SCSI target software       | No                  | No          | Yes                      |
 Configure all RDMs before configuring VM's network settings or
 initializing LUNs within windows. Add RDMs to 2nd SCSI controller i.e.
 SCSI(1:x). Set SCSI bus sharing: • CIB = Virtual • CAB or N+1 = Physical  

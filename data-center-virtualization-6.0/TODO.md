@@ -17,7 +17,7 @@
 - [x] 03_vcenter.md
 - [x] 04_clusters.md
 - [ ] 05_vms.md
-- [ ] 06_availability.md
+- [x] 06_availability.md
 - [ ] 07_networking.md
 - [ ] 08_storage.md  
 
