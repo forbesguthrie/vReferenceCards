@@ -14,39 +14,23 @@ even if host is licensed. If no DHCP at install, link local IP used
 169.254.x.x/16. Disconnect Fibre Channel connections prior to
 installation.  
 
-## Firewall
-**FW Port** **Source** **Destination** **Protocol** **Description**  
-22 SSH client ESXi TCP SSH server  
-53 ESXi DNS server UDP DNS requests  
-80 Clients ESXi TCP Redirects to HTTPS (443)  
-123 ESXi NTP source UDP NTP (time) client  
-427 ESXi CIM servers UDP CIM SLPv2 client to find server  
-443 Clients, vCenter ESXi TCP HTTPS access  
-902 ESXi ESXi TCP/UDP Migrate & provision  
-902 Client ESXi UDP Access to VM console  
-902 ESXi vCenter TCP/UDP Heartbeat  
-5900-5964 ESXi ESXi TCP RFB for management tools-VNC  
-5988 CIM server ESXi TCP CIM transactions over HTTP  
-5989 vCenter/ESXi ESXi/vCenter TCP CIM XML over HTTPS  
-8000 ESXi ESXi TCP vMotion requests  
-<u>Possible extras</u>: 68(DHCP),161/162(SNMP),514(syslog), 1234/1235(HBR) &
-HA,FT,NFS,iSCSI traffic  
-
-| FW Port   | Source           | Destination  | Protocol | Description |
-|-----------|------------------|--------------|----------|-------------|
-| 22        | 22               | ESXi         | TCP      | SSH server  |
-| 53        |                  |              |          |             |
-| 80        |                  |              |          |             |
-| 123       |                  |              |          |             |
-| 427       |                  |              |          |             |
-| 443       | Clients/ vCenter |              |          |             |
-| 902       |                  |              | TCP/UDP  |             |
-| 902       |                  |              |          |             |
-| 902       |                  |              |          |             |
-| 5900-5964 |                  |              |          |             |
-| 5988      |                  |              |          |             |
-| 5989      |                  | ESXi/vCenter |          |             |
-| 8000      |                  |              |          |             |
+## Firewall  
+| FW Port   | Source           | Destination  | Protocol | Description                     |
+|-----------|------------------|--------------|----------|---------------------------------|
+| 22        | SSH client       | ESXi         | TCP      | SSH server                      |
+| 53        | ESXi             | DNS server   | UDP      | DNS requests                    |
+| 80        | Clients          | ESXi         | TCP      | Redirects to HTTPS (443)        |
+| 123       | ESXi             | NTP source   | UDP      | NTP (time) client               |
+| 427       | ESXi             | CIM servers  | UDP      | CIM SLPv2 client to find server |
+| 443       | Clients, vCenter | ESXi         | TCP      | HTTPS access                    |
+| 902       | ESXi             | ESXi         | TCP/UDP  | Migrate & provision             |
+| 902       | Client           | ESXi         | UDP      | Access to VM console            |
+| 902       | ESXi             | vCenter      | TCP/UDP  | Heartbeat                       |
+| 5900-5964 | ESXi             | ESXi         | TCP      | RFB for management tools-VNC    |
+| 5988      | CIM server       | ESXi         | TCP      | CIM transactions over HTTP      |
+| 5989      | vCenter/ESXi     | ESXi/vCenter | TCP      | CIM XML over HTTPS              |
+| 8000      | ESXi             | ESXi         | TCP      | vMotion requests                |
+<u>Possible extras</u>: 68(DHCP),161/162(SNMP),514(syslog),1234/1235(HBR)&HA,FT,NFS,iSCSI traffic 
 
 **ESXi Partitions**: • 2 boot banks • 4GB VFAT scratch (system swap & vm-support info) – not required but uses ramdisk if not present, or can
 use remote NFS partition • locker • 110MB diagnostic for core dumps (can
