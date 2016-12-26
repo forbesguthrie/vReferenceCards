@@ -30,7 +30,7 @@ Show current iSCSI session: `esxcli iscsi session list`
 Discover iSCSI devices: `esxcli iscsi adapter discovery rediscover`  
 Check if software iSCSI is enabled: `esxcli iscsi software get`  
 List the NFS filesystems & mounts: `esxcli storage nfs list`  
-Test VMkernel connectivity: `vmkping` [`-s 9000`] \<`*ipaddress*`\>  
+Test VMkernel connectivity: `vmkping` [`-s 9000`] \<*`ipaddress`*\>  
 SCSI performance statistic tool: `vscsiStats`  
 Create/Delete/Modify VMDKs, RDMs, VMFS volumes & storage devices: `vmkfstools`  
 
