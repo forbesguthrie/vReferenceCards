@@ -4,8 +4,7 @@ Reference card for Data Center Virtualization 6.0
 07_networking.md
 -->
 
-# Networking
-<div class="section">  
+# Networking 
 
 **Per host**: 1GbE VMNICs = ≤ 32 HW dependent 10GbE VMNICs = 8 40GbE VMNICs = 4 LAGs = 64 PCI VMDirectPath devices=8 SR-IOV functions=64 vDS switches=16 vSS/vDS ports (active)=4096 (1016)  
 **Per vCenter**: vDS switches = 128 vDS port groups = 10,000 (1016 ephemeral) vDS ports = 60,000  
@@ -59,4 +58,3 @@ address of each packet (use if physical switch ports are etherchannel). *Source 
 <u>Miscellaneous</u> (dvPortGroup & dvUplink) • Port blocking - *No* (default) or *Yes -* shut down all ports.  
 
 **Links**: Troubleshooting Networking <http://communities.vmware.com/docs/DOC-9876>
-</div>
