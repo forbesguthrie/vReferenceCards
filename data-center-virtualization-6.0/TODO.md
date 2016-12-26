@@ -8,8 +8,8 @@
 - [x] 04_clusters.md
 - [x] 05_vms.md
 - [x] 06_availability.md
-- [ ] 07_networking.md
-- [ ] 08_storage.md  
+- [x] 07_networking.md
+- [x] 08_storage.md  
 
 **Fix tables**
 - [x] 01_install.md
@@ -43,6 +43,26 @@ See REFERENCE_MATERIAL.md, in particluar:
 - [ ] [vSphere CLI Release Notes 6.0](https://www.vmware.com/support/developer/vcli/vcli60/vsp6_60_vcli_relnotes.html)  
 - [ ] [vSphere CLI Release Notes 6.0 U2](http://pubs.vmware.com/Release_Notes/en/vcli/60/vsp6_602_vcli_relnotes.html)  
  
+## Older "What's New" features since 5.0
+- [ ] [Feature table](http://www.vmwarearena.com/wp-content/uploads/2015/02/Difference-between-vSphere-5.05.1-5.5-6.0.jpg)
+### 5.1
+- [ ] [What’s New in VMware vSphere 5.1? datasheet](http://www.vmware.com/files/pdf/products/vsphere/vmware-what-is-new-vsphere51.pdf)
+- [ ] [What’s new in VMware vCenter 5.1](http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vCenter-Server-51-Technical-Whitepaper.pdf)
+- [ ] [What’s New in VMware vSphere 5.1 – Networking](http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Network-Technical-Whitepaper.pdf)
+- [ ] [What’s New in VMware vSphere 5.1 – Platform](http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Platform-Technical-Whitepaper.pdf)
+- [ ] [What’s New in VMware vSphere 5.1 – Storage](http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Storage-Technical-Whitepaper.pdf)
+- [ ] [What’s New in VMware vSphere 5.1 – Performance](http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vSphere-51-Performance-Technical-Whitepaper.pdf)
+- [ ] Introduction to VMware vSphere Replication
+- [ ] [Introduction to VMware vSphere Data Protection](http://www.vmware.com/files/pdf/techpaper/Introduction-to-Data-Protection.pdf)
+- [ ] [Eric Siebert's 5.1 Link-O-Rama](http://vsphere-land.com/news/vsphere-51-link-o-rama.html)
+
+
+### 5.5
+- [What’s New in VMware vSphere 5.5 – Platform](http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsphere/vmw-white-paper-vsphr-5.5-pltfrm.pdf)
+- [A Summary of What’s New in vSphere 5.5](https://blogs.vmware.com/vsphere/2013/09/a-summary-of-whats-new-in-vsphere-5-5.html)
+- [What’s New with vSphere Data Protection (VDP) 5.5](http://blogs.vmware.com/vsphere/2013/09/whats-new-with-vdp55.html)
+- [VCP550D – What’s New with vSphere 5.5 Study Guide](http://www.jasongaudreau.com/2014/10/vcp550d-whats-new-with-vsphere-55-study.html)
+- [Eric Siebert's 5.5 Link-O-Rama](http://vsphere-land.com/news/vsphere-55-link-o-rama.html)
 
 **Add new vSphere 6 capabilities**  
 See REFERENCE_MATERIAL.md, in particular:  
