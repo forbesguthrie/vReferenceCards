@@ -4,7 +4,8 @@ Work-in-progress, but here's some initial resources...
 
 Blueprint: https://mylearn.vmware.com/mgrReg/plan.cfm?plan=64180&ui=www_cert
 
-## Additional products:
+## Additional products/areas:
+- VUM, VCSA upgrades
 - VDP
 - vReplication
 - Converter

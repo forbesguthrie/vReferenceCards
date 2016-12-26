@@ -23,19 +23,26 @@
 
 **Update existing details for vSphere 6 (maxs, commands, firewall ports)**  
 See REFERENCE_MATERIAL.md, in particluar:  
-- [ ] [Configuration Maximums for vSphere 6.0](https://www.vmware.com/pdf/vsphere6/r60/vsphere-60-configuration-maximums.pdf)  
-- [ ] [vSphere CLI Release Notes 6.0](https://www.vmware.com/support/developer/vcli/vcli60/vsp6_60_vcli_relnotes.html)  
-- [ ] [vSphere CLI Release Notes 6.0 U2](http://pubs.vmware.com/Release_Notes/en/vcli/60/vsp6_602_vcli_relnotes.html)  
 - [ ] [Firewall spreadsheet covering vSphere 6.0U2](https://communities.vmware.com/docs/DOC-33303)
-http://www.tablesgenerator.com/markdown_tables
-  - [ ] 01_install.md
+  - [ ] 01_install.md  (or 02_hosts.md)
+  - [ ] 03_vcenter.md
+  - [ ] 04_clusters.md
+  - [ ] 06_availability.md
+  - [ ] 07_networking.md
+  - [ ] 08_storage.md 
+  - [ ] VUM
+  - [ ] VDP 
+- [ ] [Configuration Maximums for vSphere 6.0](https://www.vmware.com/pdf/vsphere6/r60/vsphere-60-configuration-maximums.pdf)  
   - [ ] 02_hosts.md
   - [ ] 03_vcenter.md
   - [ ] 04_clusters.md 
   - [ ] 05_vms.md
   - [ ] 06_availability.md
   - [ ] 07_networking.md
-  - [ ] 08_storage.md  
+  - [ ] 08_storage.md 
+- [ ] [vSphere CLI Release Notes 6.0](https://www.vmware.com/support/developer/vcli/vcli60/vsp6_60_vcli_relnotes.html)  
+- [ ] [vSphere CLI Release Notes 6.0 U2](http://pubs.vmware.com/Release_Notes/en/vcli/60/vsp6_602_vcli_relnotes.html)  
+ 
 
 **Add new vSphere 6 capabilities**  
 See REFERENCE_MATERIAL.md, in particular:  
@@ -53,6 +60,7 @@ See REFERENCE_MATERIAL.md, in particular:
 - [ ] Document conversion process
 
 **VCP add on section**
+- [ ] VUM, VCSA upgrades
 - [ ] VDP
 - [ ] vReplication
 - [ ] Converter
@@ -61,7 +69,7 @@ See REFERENCE_MATERIAL.md, in particular:
 **Documentation Notes**
 - [ ] [vSphere Installation and Setup Guide 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-installation-setup-guide.pdf)
 - [ ] [vSphere Upgrade Guide 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-upgrade-guide.pdf)
-- [ ] [vSphere Migration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-vcenter-server-60-migration-guide.pdf)
+- [ ] [vSphere (VCSA) Migration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-vcenter-server-602-migration-guide.pdf) (update 2 only)
 - [ ] [vCenter Server and Host Management Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-host-management-guide.pdf)
 - [ ] [vCenter Server Appliance Configuration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-appliance-configuration-guide.pdf)
 - [ ] [vSphere Virtual Machine Administration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-virtual-machine-admin-guide.pdf)

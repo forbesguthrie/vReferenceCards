@@ -6,7 +6,6 @@
 [Full 6.0 Documentation Archive (zip file)](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-admin-doc.zip)  
 - [vSphere Installation and Setup Guide 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-installation-setup-guide.pdf)
 - [vSphere Upgrade Guide 6.0](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-upgrade-guide.pdf)
-- [vSphere Migration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-vcenter-server-60-migration-guide.pdf)
 - [vCenter Server and Host Management Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-host-management-guide.pdf)
 - [vCenter Server Appliance Configuration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-appliance-configuration-guide.pdf)
 - [vSphere Virtual Machine Administration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-60-virtual-machine-admin-guide.pdf)
@@ -63,7 +62,6 @@ We're still figuring out how best to handle the update material. Initially we're
 [Full 6.0 U1 Documentation Archive (zip file)](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-admin-doc-601.zip)
 - [vSphere Installation and Setup Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-601-installation-setup-guide.pdf)
 - [vSphere Upgrade Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-601-upgrade-guide.pdf)
-- [vSphere Migration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-vcenter-server-601-migration-guide.pdf)
 - [vCenter Server and Host Management Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-601-host-management-guide.pdf)
 - [vCenter Server Appliance Configuration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-601-appliance-configuration-guide.pdf)
 - [vSphere Virtual Machine Administration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-601-virtual-machine-admin-guide.pdf)
@@ -156,9 +154,7 @@ http://vsphere-land.com/news/vsphere-6-update-2-now-available.html
 - [What’s New in VMware vSphere 5.5 – Platform](http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsphere/vmw-white-paper-vsphr-5.5-pltfrm.pdf)
 - [A Summary of What’s New in vSphere 5.5](https://blogs.vmware.com/vsphere/2013/09/a-summary-of-whats-new-in-vsphere-5-5.html)
 - [What’s New with vSphere Data Protection (VDP) 5.5](http://blogs.vmware.com/vsphere/2013/09/whats-new-with-vdp55.html)
-
-
-- http://www.jasongaudreau.com/2014/10/vcp550d-whats-new-with-vsphere-55-study.html
+- [VCP550D – What’s New with vSphere 5.5 Study Guide](http://www.jasongaudreau.com/2014/10/vcp550d-whats-new-with-vsphere-55-study.html)
 - [Eric Siebert's 5.5 Link-O-Rama](http://vsphere-land.com/news/vsphere-55-link-o-rama.html)
 
 
