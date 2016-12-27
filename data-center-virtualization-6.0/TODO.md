@@ -56,7 +56,6 @@ See REFERENCE_MATERIAL.md, in particluar:
 - [ ] [Introduction to VMware vSphere Data Protection](http://www.vmware.com/files/pdf/techpaper/Introduction-to-Data-Protection.pdf)
 - [ ] [Eric Siebert's 5.1 Link-O-Rama](http://vsphere-land.com/news/vsphere-51-link-o-rama.html)
 
-
 ### 5.5
 - [What’s New in VMware vSphere 5.5 – Platform](http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsphere/vmw-white-paper-vsphr-5.5-pltfrm.pdf)
 - [A Summary of What’s New in vSphere 5.5](https://blogs.vmware.com/vsphere/2013/09/a-summary-of-whats-new-in-vsphere-5-5.html)
