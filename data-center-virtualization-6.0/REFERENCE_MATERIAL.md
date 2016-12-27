@@ -49,8 +49,8 @@
 ### vSphere Replication
 - [vSphere Replication Administration](http://pubs.vmware.com/vsphere-replication-60/topic/com.vmware.ICbase/PDF/vsphere-replication-60-admin.pdf)
 - [vSphere Replication for vCloud Air Disaster Recovery](http://pubs.vmware.com/vsphere-replication-60/topic/com.vmware.ICbase/PDF/vsphere-replication-to-cloud-20.pdf)
-- [vSphere Replication 6.0.0.x Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere-replication/60/vsphere-replication-60-release-notes.html)
-vSphere Replication Security Guide is available for v6.1 (link below)
+- [vSphere Replication 6.0.0.x Release Notes](http://pubs.vmware.com/Release_Notes/en/vsphere-replication/60/vsphere-replication-60-release-notes.html)  
+- vSphere Replication Security Guide is available for v6.1 (link below)
 
 ### vSphere Data Protection 
 - [vSphere Data Protection Administration Guide](http://pubs.vmware.com/vsphere-60/topic/com.vmware.ICbase/PDF/vmware-data-protection-administration-guide-60.pdf)
@@ -160,6 +160,7 @@ What's New PDFs, CLI guides, addtional VMware products (VDP, vReplication, VUM)
 
 ## Older "What's New" features since 5.0
 - [Feature table](http://www.vmwarearena.com/wp-content/uploads/2015/02/Difference-between-vSphere-5.05.1-5.5-6.0.jpg)
+
 ### 5.1
 - [What’s New in VMware vSphere 5.1? datasheet](http://www.vmware.com/files/pdf/products/vsphere/vmware-what-is-new-vsphere51.pdf)
 - [What’s new in VMware vCenter 5.1](http://www.vmware.com/files/pdf/techpaper/Whats-New-VMware-vCenter-Server-51-Technical-Whitepaper.pdf)
