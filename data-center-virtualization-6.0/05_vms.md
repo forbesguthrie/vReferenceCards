@@ -5,7 +5,7 @@ Reference card for Data Center Virtualization 6.0
 -->
 
 # VMs
-**Maximums (per VM)**: vCPUs = 64 RAM = 1TB (64GB - FT VMs) Virtual swap file (.vswp) = 1TB SCSI adapters:devices=4:15 vSATA adapters:devices=4:30 IDE devices (Disk/CD)=4 VMDK=62TB vNICs = 10 USB devices = 20 Floppy drives = 2 Parallel ports = 3 Serial ports = 4 Remote consoles=40 VMDirectPath devices=4 Video RAM=512MB vFRC Cache:VMDK = 400GB:16TB
+**Maximums (per VM)**: vCPUs = 128 vRAM = 4TB (64GB - FT VMs) Virtual swap file (.vswp) = 1TB vSCSI adapters:devices=4:15 vSATA adapters:devices=4:30 IDE devices (Disk/CD)=4 VMDK=62TB vNICs = 10 USB devices = 20 Floppy drives = 2 Parallel ports = 3 Serial ports = 4 Remote consoles=40 VMDirectPath devices=4 Video RAM=512MB vFRC Cache:VMDK = 400GB:16TB
 
 **Files**: <file>.hlog</file> vMotion log file <file>.vmsd</file> Snapshot metapreview side-by-side preview side-by-side preview side-by-side data  
 <file>.lck-XXX</file> Locking file on NFS datastore <file>.vmsn</file> Snapshot state file  

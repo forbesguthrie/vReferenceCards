@@ -6,8 +6,8 @@ Reference card for Data Center Virtualization 6.0
 
 # Availability
 ## Maximums
-**Maximums (per HA cluster)**: Hosts = 32 VMs = 3000  
-**Maximums (FT)**: Disks per VM =16 vCPUs per VM=1 RAM per VM = 64GB VMs per host = 4  
+**Maximums (per HA cluster)**: Hosts = 64 VMs = 8000 VMs on VSAN = 6000 Powered on VMs = 2048 FT VMs = 98 FT VM vCPUs = 256  
+**Maximums (FT)**: Disks per VM = 16 vCPUs per VM = 4 RAM per VM = 64GB VMs per host = 4 (or vCPUs = 8)  
 ## Firewall
 **Firewall Ports**: <u>HA</u> interhost 2050-2250, 8042-8045 TCP/UDP, <u>FT</u> interhost 8100, 8200 TCP/UDP
 
