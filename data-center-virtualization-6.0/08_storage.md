@@ -9,6 +9,7 @@ Reference card for Data Center Virtualization 6.0
 **Maximums (per host)**: Virt disks = 2048 LUNs/Volumes = 256 Paths = 1024 NAS mounts = 256 <u>FC</u> HBAs=8 (ports=16) Targets per HBA=256 Paths per LUN=32 LUN size=64TB <u>FCoE</u> Adapters=4 <u>iSCSI HW:</u> HBAs = 4 Targets per HBA = 62-128 (depends on card) Paths to each LUN = 8 <u>iSCSI SW:</u> NICs=8 Targets=256 Paths to each LUN=8 <u>vFRC:</u> Cache=2TB Swap Cache=4TB Devices=8  
 **Maximums (per volume)**: Powered-on VMs = 2048 Hosts = 64 VMFS5 = 64TB vRDMs = 62TB pRDMs = 64TB File size = 62TB  
 **Maximums (per datastore cluster)**:Virt disks=9000 Datastores=64 (datastore clusters per vCenter=256)
+**Maximums (VSAN):
 
 **Firewall Ports**: <u>iSCSI</u> – 3260 TCP, <u>NFS</u> – 111 TCP/UDP, 2049 TCP/UDP
 

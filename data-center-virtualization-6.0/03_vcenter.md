@@ -6,9 +6,10 @@ Reference card for Data Center Virtualization 6.0
 
 # vCenter
 **Maximums** (per vCenter): Hosts = 1,000 VMs = 15,000 (VCSA=10,000) Running VMs = 10,000  Web Clients = 180 Windows Clients = 100 MAC addresses = 65,536 Datastore clusters = 256  
+**Maximums** (PSC): PSC per domain = 8 PSC per site = 4 
 **Maximums** (per datacenter): Hosts = 500  
-**Maximums** (Linked mode): vCenters = 10 VMs = 50,000 Running VMs = 30,000 Hosts = 4,000  
-**Maximums** (Content Library): Items = 200 Libraries = 20
+**Maximums** (per Linked mode): vCenters = 10 VMs = 50,000 Running VMs = 30,000 Hosts = 4,000  
+**Maximums** (per Content Library): Items = 200 Libraries = 20
 **HW**: <u>Min</u> - 2 CPU cores, 4GB RAM, 4GB disk space • <u>Medium</u> ≤50 hosts/500 VMs - 2 cores, 4GB RAM • <u>Large</u> ≤300 hosts/3000 VMs - 4 cores, 8GB RAM • <u>Extra large</u> ≤1000 hosts/10000 VMs - 8 cores, 16GB RAM  
 **SW**: • 64bit Win (2003 SP2/R2 SP1, 2008 SP2/R2) • 64bit DSN (*SQL Native* driver) • hostname ≤15 characters  
 **Databases**: • SQL 2008 Express (≤5 hosts/50 VMs) • SQL 2005 SP3 • SQL 2008 SP1 or R2• Oracle 10g R2 or 11g R1 • IBM DB2 9.5 fix pack 5 or 9.7 fix pack 2. VUM only supports Oracle & MS SQL.   User needs DBO rights. Default of max 50 simultaneous DB connections. MS SQL don't use master DB.  

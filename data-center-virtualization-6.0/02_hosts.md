@@ -5,7 +5,7 @@ Reference card for Data Center Virtualization 6.0
 -->
 
 # ESXi Hosts
-**Maximums (per host)**: Logical CPUs (incl HT) = 320 RAM = 4TB VMs = 512 NUMA nodes = 16 vCPUs = 4096 vCPUs per core = 32
+**Maximums (per host)**: Logical CPUs (incl HT) = 480 RAM = 12TB VMs = 1024 NUMA nodes = 16 vCPUs = 4096 vCPUs per core = 32
 
 **Logs**: All logs in <file>/var/log/</file> directory (sym links from <file>/var/run/log</file>). View host logs via: • DCUI • ESXi Shell • Extract `vm-support` bundle • http://hostname/host • vCLI `vifs` • vSphere Client connected to host  
 <file>auth.log</file> ESXi Shell authentication  
