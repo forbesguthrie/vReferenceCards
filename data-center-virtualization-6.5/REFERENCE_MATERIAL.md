@@ -1,0 +1,6 @@
+- [vSphere 6.5] (http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsphere/vmw-white-paper-vsphr-whats-new-6-5.pdf)
+- [VCSA HA] (http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/vcha65-perf.pdf)
+- [VM Encryption] (http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/vm-encryption-vsphere65-perf.pdf)
+- [VUM] (http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/vum-vsphere65-perf.pdf)
+- [vSphere 6.5 what's new] (http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsphere/vmw-white-paper-vsphr-whats-new-6-5.pdf)
+- [Storage] (https://storagehub.vmware.com/export_to_pdf/vsphere-6-5-storage)

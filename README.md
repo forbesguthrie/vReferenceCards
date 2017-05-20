@@ -17,7 +17,7 @@ and another good one:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Contributing
-The files can be edited in any text editor such as Github's own [Atom](https://atom.io/), or [Microsoft's Visual Studio Code](https://code.visualstudio.com/).  More comprehensive instructions will follow.
+The files can be edited in any text editor such as Github's own [Atom](https://atom.io/), or Microsoft's [Visual Studio Code](https://code.visualstudio.com/).  More comprehensive instructions will follow.
 
 Please refer to the **CONTRIBUTING.md** file for more details on how to contribute.
 
